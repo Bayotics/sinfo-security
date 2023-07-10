@@ -65,7 +65,7 @@ function HomeScreen() {
         <div >
           <Categories />
         </div>
-        <h1 className='text-center fw-normal mt-4'><span className='theme-color'>FEATURED </span> PRODUCTS</h1>
+        {/* <h1 className='text-center fw-normal mt-4'><span className='theme-color'>FEATURED </span> PRODUCTS</h1>
         <div className="products" id = "featured-products">
           {loading ? (
             <LoadingBox />
@@ -93,7 +93,7 @@ function HomeScreen() {
               </div>
             </>
           )}
-        </div>
+        </div> */}
       </div>
     </div>
 
