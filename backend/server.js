@@ -21,7 +21,7 @@ mongoose
   .then(() => {
     // Product.insertMany(data.products);
     // User.insertMany(data.users);
-    // Payment.insertMany(data.payments);
+    // Payment.insertMany(data.payments); repop
     console.log('connected to db');
   })
   .catch((err) => {
