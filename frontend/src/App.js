@@ -88,7 +88,7 @@ function App() {
       >
         <ToastContainer position="bottom-center" limit={1} />
         <header className='mt-20'>
-          <Navbar bg="white" variant="white" expand="lg">
+          <Navbar expand="lg">
             <Container id = "main-container">
                <Button
                 variant="white"
@@ -303,9 +303,9 @@ function App() {
             </Routes>
           </Container>
         </main>
-        <footer>
+        {/* <footer>
           <div className="text-center">All rights reserved</div>
-        </footer>
+        </footer> */}
       </div>
     </BrowserRouter>
   );

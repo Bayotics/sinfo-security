@@ -4,9 +4,22 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.main-bg{
+  position: absolute;
+  top: 0px;
+  background-image: url(../src/assets/wallpaper04.jpg);
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+} 
+header{
+  position:relative;
+  top: 25px;
+  z-index: 1;
+}
 .site-container {
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 
 main {

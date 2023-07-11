@@ -1,7 +1,9 @@
 
 const HomePageScreen = () => {
     return(
-        <div><p>This is the Home Page Screen</p></div>
+        <div className="main-banner">
+            <div className="main-bg"><p></p></div>
+        </div>
     )
 }
 
