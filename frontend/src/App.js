@@ -40,6 +40,7 @@ import UserListScreen from './screens/UserListScreen';
 import UserEditScreen from './screens/UserEditScreen';
 import AboutScreen from './screens/AboutScreen';
 import DropdownItem from 'react-bootstrap/esm/DropdownItem';
+import HomePageScreen from './screens/HomePageScreen';
 
 
 function App() {
@@ -296,8 +297,9 @@ function App() {
                 }
               ></Route>
               <Route path = "/aboutus" element = {<AboutScreen />} ></Route> 
-              <Route path="/products" element={<HomeScreen />} />
-              <Route path = '/' element = {<MainScreen />} />
+              <Route path = '/' element = {<HomePageScreen />} />
+              {/* <Route path="/products" element={<HomeScreen />} /> */}
+              {/* <Route path = '/' element = {<MainScreen />} /> */}
             </Routes>
           </Container>
         </main>
