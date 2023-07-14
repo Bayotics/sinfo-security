@@ -65,8 +65,11 @@ header{
 }
 #main-heading h1{
   font-size: 62px;
-  font-weight: 500;
-  margin-bottom: 10px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+#csc{
+  color: rgb(207, 207, 99);;
 }
 #main-heading h2 {
   font-size: 20px;
@@ -177,6 +180,7 @@ header{
 }
 #about-span{
   color: rgb(180, 180, 47);
+  font-weight: 600;
 }
 .risk-analysis{
   color: rgb(180, 180, 47);
@@ -209,7 +213,8 @@ header{
   width: 100%;
   top: 1600px;
   left: 0px;
-  padding-bottom: 100px;
+  padding-bottom: 0px;
+  height: 500px;
 }
 #masterclass h1{
   margin-top: 100px;
@@ -219,12 +224,122 @@ header{
   margin-top: 10px;
   font-size: 18px;
 }
+#masterclass-svg{
+  /* height: 100px; */
+}
 .masterclass-btn{
   /* margin-bottom: 100px; */
 }
+.security-actions{
+  position: relative;
+  width: 100%;
+  top: 1250px
+}
+#security-actions-heading{
+  width: 100%;
+  margin-top: 100px;
+  border-left: 3px solid rgb(185, 185, 85);
+}
+#security-actions-heading h1{
+  margin-left: 20px;
+  margin-top: 50px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+#security-actions-heading p {
+  margin-left: 20px;
+  line-height: 1.5;
+  font-size: 20px;
+}
+#actions-button{
+  width: 180px;
+  margin-left: 20px;
+}
 
 
+.btn-action {
+  border-radius: 0;
+  padding-top: 12px;
+  height: 50px;
+  width: 100%;
+  text-decoration: none;
+  position: relative;
+  border: 1px solid white;
+  z-index: 20;
+  transition: all 0.35s cubic-bezier(1,
+      0,
+      0,
+      1);
+  background-color: rgb(185, 185, 85);
+}
 
+.btn-action:hover {
+  color: white;
+}
+
+.btn-color-action {
+  border-color: rgb(243, 243, 40);
+  color: white;
+}
+
+.btn-color-action::before {
+  background: rgb(243, 243, 40);
+}
+
+.btn-color-action::after {
+  background: rgb(243, 243, 40);
+}
+
+.btn-action::before,
+.btn-action::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.35s cubic-bezier(1,
+      0,
+      0,
+      1);
+}
+
+.btn-l-r-action::after {
+  height: 100%;
+  width: 0;
+  top: 0;
+}
+
+.btn-l-r-action:hover::after {
+  width: 100%;
+}
+
+.btn-l-r-action::after {
+  left: 0;
+}
+
+.btnFillup-action {
+  display: inline-block;
+  padding: 16px;
+  overflow: hidden;
+  color: rgb(133, 133, 66);
+  text-decoration: none;
+  border: 1px solid rgb(243, 243, 40);
+  border-radius: 3px;
+  background-position: 0 -100%;
+  background-repeat: repeat-x;
+  transition: background-position 0.8s ease;
+}
+
+.btnFillup:hover {
+  background-position: 100% 50%;
+  border-color: rgb(133, 133, 66);
+  color: white;
+}
+
+#banner-button :hover {
+  background-color: rgb(133, 133, 66);
+}
+#action-btn-p{
+  font-size: 12px;
+}
 
 
 

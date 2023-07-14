@@ -10,7 +10,7 @@ const HomePageScreen = () => {
                 <div id="banner-captions" className="">
                         <div id = "main-heading" className="">
                             <p className="text-white text-center">PROTECT YOUR DIGITAL PRESENCE</p>
-                            <h1 className=" text-white text-center">Advanced Cyber Security Solutions</h1>
+                            <h1 className=" text-white text-center">Advanced <span id='csc'>Cyber Security</span> Solutions</h1>
                             <h2 className="text-white text-center">Supreme Information Security LLC Provides exceptional cybersecurity solutions to ensure the safety and protection of your digital assets</h2>
                             <div className="" id = "banner-button-container">
                                 <div className='fill-wrap'>
@@ -45,18 +45,36 @@ const HomePageScreen = () => {
                 </Row>
             </div>
             <div className='' id = "masterclass">
-                    <h1 className='text-white text-center'>Attain Assurance in Your Security Solution</h1>
-                    <div className='w-50' id = "masterclass-sub"><p className='text-white text-center'>Join Supreme Training's CyberSecurity MasterClass and Get Certified!
-                    <br />
-                    Coming up August 16
-                    </p></div>
-                    <div className="masterclass-btn" id = "banner-button-container">
-                        <div className='fill-wrap'>
-                            <div className='btn btn-color btn-l-r'>
-                                REGISTER NOW
-                            </div>
+                <h1 className='text-white text-center'>Attain Assurance in Your Security Solution</h1>
+                <div className='w-50' id = "masterclass-sub"><p className='text-white text-center'>Join Supreme Training's CyberSecurity MasterClass and Get Certified!
+                <br />
+                Coming up August 16
+                </p></div>
+                <div className="masterclass-btn" id = "banner-button-container">
+                    <div className='fill-wrap'>
+                        <div className='btn btn-color btn-l-r'>
+                            REGISTER NOW
                         </div>
                     </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,192L80,186.7C160,181,320,171,480,176C640,181,800,203,960,202.7C1120,203,1280,181,1360,170.7L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg> 
+            </div>
+            <div className='mt-4 border security-actions'>
+                <Row>
+                    <Col>
+                        <div className='' id = "security-actions-heading">
+                            <h1>Modern Security Actions That Safeguard Your Business</h1>
+                            <p>Consolidate your cybersecurity program on a unified platform to ensure comprehensive protection, detection, and response - across all required areas. Continuously managed by our team of skilled professionals.</p>
+                             <div className='fill-wrap-action' id = "actions-button">
+                                <div className='btn-action btn-color-action btn-l-r-action'>
+                                    <p id = "action-btn-p" className='text-center'>REGISTER NOW</p>
+                                </div>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col>
+                    </Col>                    
+                </Row>
             </div>
         </div>
         
