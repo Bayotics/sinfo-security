@@ -8,9 +8,9 @@ body {
 .main-bg{
   position: absolute;
   top: 0px;
-  background-image: url(../src/assets/wallpaper02.jpeg);
+  background-image: url(../src/assets/wallpaper05.jpeg);
   left: 0px;
-  height: 100%;
+  height: 740px;
   width: 100%;
   background-size: cover;
 } 
@@ -60,9 +60,13 @@ header{
 #main-heading{
 
 }
+#main-heading p{
+  font-size: 20px;
+}
 #main-heading h1{
   font-size: 62px;
   font-weight: 500;
+  margin-bottom: 10px;
 }
 #main-heading h2 {
   font-size: 20px;
@@ -161,6 +165,69 @@ header{
 }
 
 /* end of button */
+#about-us-main{
+  position: relative;
+  top: 650px;
+  min-height: 200px;
+  width: 100%;
+}
+#about-us-main p{
+  font-size: 32px;
+  /* font-weight: 300; */
+}
+#about-span{
+  color: rgb(180, 180, 47);
+}
+.risk-analysis{
+  color: rgb(180, 180, 47);
+}
+.about-us-inner{
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+}
+.about-us-inner h1{
+  font-weight: 500;
+}
+.about-us-inner h6{
+  margin-top: 50px;
+  line-height: 1.8;
+}
+#about-us-logo{
+  margin: auto;
+  padding-bottom: 0px;
+}
+#sinfo-logo{
+  height: 500px;
+  width: 550px;
+  margin-top: 80px;
+}
+#masterclass{
+  background-image: url(../src/assets/masterclass-bg.jpg);
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  top: 1600px;
+  left: 0px;
+  padding-bottom: 100px;
+}
+#masterclass h1{
+  margin-top: 100px;
+}
+#masterclass-sub{
+  margin: auto;
+  margin-top: 10px;
+  font-size: 18px;
+}
+.masterclass-btn{
+  /* margin-bottom: 100px; */
+}
+
+
+
+
+
+
 main {
   flex: 1;
 }
