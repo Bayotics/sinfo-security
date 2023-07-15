@@ -72,7 +72,8 @@ const HomePageScreen = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col>
+                    <Col>   
+
                     </Col>                    
                 </Row>
             </div>
