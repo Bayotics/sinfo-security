@@ -1,6 +1,8 @@
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import sinfoLogo from '../assets/sinfo-logo.png'
+import wallpaper3 from '../assets/wallpaper4.jpg'
+import IncludedFeatures from '../components/IncludedFeatures';
 
 const HomePageScreen = () => {
     return(
@@ -57,7 +59,7 @@ const HomePageScreen = () => {
                         </div>
                     </div>
                 </div>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,192L80,186.7C160,181,320,171,480,176C640,181,800,203,960,202.7C1120,203,1280,181,1360,170.7L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg> 
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fillOpacity="1" d="M0,192L80,186.7C160,181,320,171,480,176C640,181,800,203,960,202.7C1120,203,1280,181,1360,170.7L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg> 
             </div>
             <div className='mt-4 border security-actions'>
                 <Row>
@@ -73,9 +75,14 @@ const HomePageScreen = () => {
                         </div>
                     </Col>
                     <Col>   
-
+                        <div id = "security-actions-heading-img">
+                            <img src={wallpaper3} id='actions-img' alt = "security actions" />
+                        </div>
                     </Col>                    
                 </Row>
+            </div>
+            <div className='border' id='includedFeatures-main'>
+                <IncludedFeatures />
             </div>
         </div>
         

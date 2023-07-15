@@ -240,7 +240,7 @@ header{
   width: 100%;
   margin-top: 100px;
   border-left: 3px solid rgb(185, 185, 85);
-  height: 85%;
+  height: 70%;
   
 }
 #security-actions-heading h1{
@@ -343,6 +343,70 @@ header{
 #action-btn-p{
   font-size: 12px;
 }
+#actions-img{
+  height: 600px;
+  width: 100%;
+  border-radius: 15px;
+}
+#includedFeatures-main{
+  position: relative;
+  width: 100%;
+  top: 1250px;
+  margin-top: 120px;
+  /* padding-bottom: 50px; */
+}
+#included-features-heading{
+  margin: auto;
+  width: 40%;
+}
+#includedFeatures-main p{
+  font-size: 20px;
+} 
+#included-features-cards{
+  width: 98%;
+  margin: auto;
+}
+#included-features-card-item{
+  height: 320px;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#included-features-card-item::before
+#included-features-card-item::after{
+    transition: all 0.5s ease-in-out
+}
+#included-features-card-item:hover{
+  background-color: tan;
+  transform: scale(1.1);
+}
+#included-features-card-item:hover::after{
+  background-color: tan;
+}
+
+#card-item-inner{
+  height: 70%;
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+}
+#card-image{
+  text-align: center;
+  margin-bottom: 20px;
+  /* margin: auto; */
+  /* height: 65px;
+  width: 65px; */
+}
+#card-p{
+  font-size: 14px;
+  font-weight: 100;
+}
+#cards-lower{
+  margin-top: 45px;
+}
+
+
+
 
 
 
