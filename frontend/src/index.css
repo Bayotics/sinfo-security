@@ -233,12 +233,15 @@ header{
 .security-actions{
   position: relative;
   width: 100%;
-  top: 1250px
+  top: 1250px;
+  padding-bottom: 50px;
 }
 #security-actions-heading{
   width: 100%;
   margin-top: 100px;
   border-left: 3px solid rgb(185, 185, 85);
+  height: 85%;
+  
 }
 #security-actions-heading h1{
   margin-left: 20px;
