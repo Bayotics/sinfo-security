@@ -3,8 +3,22 @@ import Col from 'react-bootstrap/Col';
 import sinfoLogo from '../assets/sinfo-logo.png'
 import wallpaper3 from '../assets/wallpaper4.jpg'
 import IncludedFeatures from '../components/IncludedFeatures';
+import OurClients from '../components/OurClients';
+import Countdown from 'react-countdown';
+
 
 const HomePageScreen = () => {
+
+    const Completionist = () => <span>OFFER ENDED!</span>;
+    const duration = 2629746000;
+    const renderer = ({ days, hours, minutes, seconds, completed }) => {
+    if (completed) {
+        return <Completionist />;
+    } else {
+        return <span>{days} Days : {hours} Hours : {minutes} Minutes : {seconds} Seconds Left</span>;
+    }
+    };
+
     return(
         <div>
             <div className="main-banner">
@@ -49,9 +63,16 @@ const HomePageScreen = () => {
             <div className='' id = "masterclass">
                 <h1 className='text-white text-center'>Attain Assurance in Your Security Solution</h1>
                 <div className='w-50' id = "masterclass-sub"><p className='text-white text-center'>Join Supreme Training's CyberSecurity MasterClass and Get Certified!
-                <br />
-                Coming up August 16
-                </p></div>
+                    <br />
+                    Coming up August 16
+                    </p>
+                    <div id='countdown-timer' className='text-white text-center text-bold'>
+                        <Countdown
+                            date={Date.now() + duration}
+                            renderer={renderer}
+                        />
+                    </div>
+                </div>
                 <div className="masterclass-btn" id = "banner-button-container">
                     <div className='fill-wrap'>
                         <div className='btn btn-color btn-l-r'>
@@ -61,15 +82,15 @@ const HomePageScreen = () => {
                 </div>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fillOpacity="1" d="M0,192L80,186.7C160,181,320,171,480,176C640,181,800,203,960,202.7C1120,203,1280,181,1360,170.7L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg> 
             </div>
-            <div className='mt-4 border security-actions'>
+            <div className='mt-4 security-actions'>
                 <Row>
                     <Col>
                         <div className='' id = "security-actions-heading">
                             <h1>Modern Security Actions That Safeguard Your Business</h1>
-                            <p>Consolidate your cybersecurity program on a unified platform to ensure comprehensive protection, detection, and response - across all required areas. Continuously managed by our team of skilled professionals.</p>
+                            <p>Consolidate your cybersecurity program on a unified platform to ensure comprehensive protection, detection, and response across all required areas. Continuously managed by our team of skilled professionals.</p>
                              <div className='fill-wrap-action' id = "actions-button">
                                 <div className='btn-action btn-color-action btn-l-r-action'>
-                                    <p id = "action-btn-p" className='text-center'>REGISTER NOW</p>
+                                    <h6 id = "action-btn-p" className='text-center'>REGISTER NOW</h6>
                                 </div>
                             </div>
                         </div>
@@ -83,6 +104,9 @@ const HomePageScreen = () => {
             </div>
             <div className='border' id='includedFeatures-main'>
                 <IncludedFeatures />
+            </div>
+            <div className='border' id='ourClients-main'>
+                <OurClients />
             </div>
         </div>
         
