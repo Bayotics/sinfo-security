@@ -5,6 +5,12 @@ import wallpaper3 from '../assets/wallpaper4.jpg'
 import IncludedFeatures from '../components/IncludedFeatures';
 import OurClients from '../components/OurClients';
 import Countdown from 'react-countdown';
+import Productivity from '../components/Productivity';
+import Blog from '../components/Blog';
+import Testimonials from '../components/Testimonials';
+import Footer from '../components/Footer';
+
+
 
 
 const HomePageScreen = () => {
@@ -102,11 +108,25 @@ const HomePageScreen = () => {
                     </Col>                    
                 </Row>
             </div>
-            <div className='border' id='includedFeatures-main'>
+            <div className='' id='includedFeatures-main'>
                 <IncludedFeatures />
             </div>
-            <div className='border' id='ourClients-main'>
+            <div className='' id='ourClients-main'>
                 <OurClients />
+            </div>
+            <div className='' id='productivity-main'>
+                <Productivity />
+            </div>
+            <div className='' id = "blog-div">
+                <Blog />
+            </div>
+            <div className='' id = "testimonials-div">
+                <Testimonials />
+            </div>
+            <div id = "footer-div">
+                <footer>
+                    <Footer />
+                </footer>
             </div>
         </div>
         
