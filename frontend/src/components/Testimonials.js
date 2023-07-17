@@ -9,60 +9,85 @@ import client3 from '../assets/client3.jpg';
 const Testimonials = () => {
     return (
         <div className="mt-4 testimonials-section text-white">
-            <Row>
-                <Col>
-                    <div className='testimonial-inner'>
-                        <h2>TESTIMONIALS</h2>
-                        <p className='text-light mt-0'>Here are testimonials from some of our clients...</p>
-                        <div className='testimonials-carousel'>
-                            <Carousel>
-                                <Carousel.Item interval={1000}>
-                                    <div className='row'>
-                                        <div className='col-4' id = "testimonial-pfp">
-                                            <img src={client1} alt='client1'
-                                                 style={{borderRadius: "50%"}}
-                                            />
-                                        </div>
-                                        <div className='col-8'>
-                                            <p className='test-p'>You guys rock at supreme! Thank you for making it painless, pleasant and most of all hassle free!I am really satisfied with my first IT certification</p>
-                                            <h6 className='mt-2 test-name'>Maya</h6>
-                                            <h6 className='mt-2 test-country'>ONTARIO, CANADA</h6>
-                                        </div>
-                                    </div>
-                                </Carousel.Item>
-                                <Carousel.Item interval={1000}>
-                                    <div className='row'>
-                                        <div className='col-4' id = "testimonial-pfp">
-                                            <img src={client2} alt='client1'
-                                                 style={{borderRadius: "50%"}}
-                                            />
-                                        </div>
-                                        <div className='col-8'>
-                                            <p className='test-p'>You prepare people to carry out skills in the real world. Keep up the good work. What I have learned in this course, I will be able to apply in the real world.</p>
-                                            <h6 className='mt-2 test-name'>Cristine</h6>
-                                            <h6 className='mt-2 test-country'>NEW YORK, USA</h6>
-                                        </div>
-                                    </div>
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <div className='row'>
-                                        <div className='col-4' id = "testimonial-pfp">
-                                            <img src={client3} alt='client1'
-                                                 style={{borderRadius: "50%"}}
-                                            />
-                                        </div>
-                                        <div className='col-8'>
-                                            <p className='test-p'>The class is almost identical to a graduate level course I took at a well known University in Boston, Massachusetts.</p>
-                                            <h6 className='mt-2 test-name'>Amy</h6>
-                                            <h6 className='mt-2 test-country'>MANCHESTER, UK</h6>
-                                        </div>
-                                    </div>
-                                </Carousel.Item>
-                            </Carousel>
-                        </div> 
+            <h5 className='text-center text-black text-bold'>TESTIMONIALS</h5>
+            <div id='testimonial-cap'>
+                <h1 className='text-center text-black text-bold'>We are dedicated and knowledgeable collaborators.</h1>
+                <h6 className='text-center text-black'>At our company, we greatly recognize that customer feedback is essential in guiding us towards improvement and ensuring we deliver the best possible service.</h6>
+            </div>
+            <Row className='gap-4' id='main-testimonial-cards'>
+                <Col className='border' id='testimonial-card-main'>
+                    <div className='text-center testimonial-card'>
+                         <div className='d-flex justify-content-center' id = "testimonial-pfp">
+                            <img src={client1} alt='client1' id= "testimonial-pic"
+                                style={{borderRadius: "50%"}}
+                            />
+                        </div>
+                        <div id='testimonial-text'>
+                            <p>
+                                <span>
+                                    <i class="fa fa-quote-left" aria-hidden="true"></i></span>We at Cashfree were looking for a partner that had the capabilities to help us develop a successful Security Token Offering (STO) campaign.
+
+Supreme information is for us the main point of contact when we have cybersecurity-related challenges. Yall are the best. Thank you very much
+                                <i class="fa fa-quote-right" aria-hidden="true"></i>
+                            </p>
+                        </div>
+                        <p className='text-center text-bold'> Jane</p>
+                        <p className='text-center'>Product Manager Cashfree</p>
                     </div>
                 </Col>
-                <Col id= "testimonial-right">
+                <Col className='border' id='testimonial-card-main-two'>
+                    <div className='text-center testimonial-card'>
+                         <div className='d-flex justify-content-center' id = "testimonial-pfp">
+                            <img src={client2} alt='client1' id= "testimonial-pic"
+                                style={{borderRadius: "50%"}}
+                            />
+                        </div>
+                        <div id='testimonial-text'>
+                            <p>
+                                <span>
+                                    <i class="fa fa-quote-left" aria-hidden="true"></i></span> I have to admit we were struggling to find a reliable partner but Supreme information was there to solve our problems. From pen-testing our apps to auditing the smart contracts and implementing various security measures within our company, Supreme information offered all the support we needed.
+                                <i class="fa fa-quote-right" aria-hidden="true"></i>
+                            </p>
+                        </div>
+                        <p className='text-center text-bold'>Name</p>
+                        <p className='text-center'>occupation</p>
+                    </div>
+                </Col>
+                <Col className='border' id='testimonial-card-main-three'>
+                    <div className='text-center testimonial-card'>
+                         <div className='d-flex justify-content-center' id = "testimonial-pfp">
+                            <img src={client3} alt='client1' id= "testimonial-pic"
+                                style={{borderRadius: "50%"}}
+                            />
+                        </div>
+                        <div id='testimonial-text'>
+                            <p>
+                                <span>
+                                    <i class="fa fa-quote-left" aria-hidden="true"></i></span> I approached Bit Sentinel a couple of years ago when we needed a trustworthy cybersecurity partner with whom to develop BIS Threat Map. The team coordinated by Andrei proved to be very efficient & flexible in our collaboration. 
+                                <i class="fa fa-quote-right" aria-hidden="true"></i>
+                            </p>
+                        </div>
+                        <p className='text-center text-bold'>Ella</p>
+                        <p className='text-center'>Backend developer</p>
+                    </div>
+                </Col>
+                <Col className='border' id='testimonial-card-main-four'>
+                    <div className='text-center testimonial-card'>
+                         <div className='d-flex justify-content-center' id = "testimonial-pfp">
+                            <img src={client1} alt='client1' id= "testimonial-pic"
+                                style={{borderRadius: "50%"}}
+                            />
+                        </div>
+                        <div id='testimonial-text'>
+                            <p>
+                                <span>
+                                    <i class="fa fa-quote-left" aria-hidden="true"></i></span> I have to admit we were struggling to find a reliable partner but Supreme information was there to solve our problems. From pen-testing our apps to auditing the smart contracts and implementing various security measures within our company, Supreme information offered all the support we needed.
+                                <i class="fa fa-quote-right" aria-hidden="true"></i>
+                            </p>
+                        </div>
+                        <p className='text-center text-bold'>Name</p>
+                        <p className='text-center'>occupation</p>
+                    </div>
                 </Col>
             </Row>
         </div>

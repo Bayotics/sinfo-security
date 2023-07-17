@@ -31,8 +31,8 @@ const HomePageScreen = () => {
                 <div className="main-bg">
                 <div id="banner-captions" className="">
                         <div id = "main-heading" className="">
-                            <p className="text-white text-center">PROTECT YOUR DIGITAL PRESENCE</p>
-                            <h1 className=" text-white text-center">Advanced <span id='csc'>Cyber Security</span> Solutions</h1>
+                            <p className="text-white text-bold text-center">PROTECT YOUR DIGITAL ASSETS WITH</p>
+                            <h1 className=" text-white text-center text-bold">Advanced <span id='csc'>Cyber Security</span> Solutions</h1>
                             <h2 className="text-white text-center">Supreme Information Security LLC Provides exceptional cybersecurity solutions to ensure the safety and protection of your digital assets</h2>
                             <div className="" id = "banner-button-container">
                                 <div className='fill-wrap'>
@@ -49,7 +49,7 @@ const HomePageScreen = () => {
                 <p className="text-center">Effectively oversee data and their vulnerabilities throughout your <span className="risk-analysis">Security Tools</span></p>
                 <Row className = "about-us-inner">
                     <Col>
-                        <h1><span id = "about-span">About</span> Us</h1>
+                        <h1 className="text-bold"><span id = "about-span">About</span> Us</h1>
                         <h6>Welcome to Supreme Information Security LLC.  We are a New York-based Information Security, Information Technology, and Project Management consulting firm regarded as the industry leader in Cyber Security and Project Management.
                         
                         <br />
