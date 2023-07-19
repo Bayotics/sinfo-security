@@ -13,7 +13,7 @@ const Productivity = () => {
                     <p className="text-center text-white">Discover the effectiveness of managed endpoint detection and response, supported by round-the-clock human threat hunters  and see the unique advantages of Supreme Information Security
                     </p>
                 </div>
-                <div className="border productivity-btn">
+                <div className=" productivity-btn">
                     <div className="masterclass-btn" id = "banner-button-container">
                         <div className='fill-wrap'>
                             <div className='btn btn-color btn-l-r'>

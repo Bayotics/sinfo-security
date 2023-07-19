@@ -210,8 +210,9 @@ header{
   font-weight: 500;
 }
 .about-us-inner h6{
+  font-size: 20px;
   margin-top: 50px;
-  line-height: 1.8;
+  line-height: 2;
 }
 #about-us-logo{
   margin: auto;
@@ -244,7 +245,7 @@ header{
   /* height: 100px; */
 }
 .masterclass-btn{
-  /* margin-bottom: 100px; */
+  margin: auto;
 }
 #countdown-timer{
   color: white;
@@ -418,7 +419,7 @@ header{
   width: 65px; */
 }
 #card-p{
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 100;
 }
 #cards-lower{
@@ -614,7 +615,7 @@ header{
   top: 6300px;
   margin-top: 30px;
   padding-top: 20px;
-  background-color: #47423a;
+  background-color: #22211e;
   font-weight: 100;
   width: 100%;
   left: 0px;

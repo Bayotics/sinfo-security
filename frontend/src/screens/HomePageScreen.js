@@ -60,9 +60,9 @@ const HomePageScreen = () => {
                             <h6>Welcome to Supreme Information Security LLC.  We are a New York-based Information Security, Information Technology, and Project Management consulting firm regarded as the industry leader in Cyber Security and Project Management.
                             
                             <br />
-                            <br />
+                            {/* <br />
                                 As part of its consulting and staff augmentation services, Supreme Information Security LLC manages and supports its clients' business and information technology needs.
-                            <br />
+                            <br /> */}
                             <br />
                                 In the last five years, we have built a solid reputation as an entity proficient in Cyber Security with substantial expertise, experience in Project Management, and resources to identify, analyze, and mitigate risks and compliance threats for the public and private sectors</h6>
                         </Col>
