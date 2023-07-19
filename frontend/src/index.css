@@ -300,7 +300,7 @@ header{
 .security-actions{
   position: relative;
   width: 100%;
-  top: 1250px;
+  top: 1350px;
   padding-bottom: 50px;
 }
 #security-actions-heading{
@@ -590,7 +590,7 @@ header{
 }
 #blog-div{
   position: relative;
-  top: 1950px;
+  top: 2050px;
 }
 /* blog */
 .container-blog{
@@ -674,7 +674,7 @@ header{
 /* end */
 #testimonials-div{
   position: relative;
-  top: 1990px;
+  top: 2100px;
 }
 .testimonials-section {
   width: 100%;

@@ -53,7 +53,6 @@ const HomePageScreen = () => {
             </div>
             <div className="mt-4" id="about-us-main">
                 <ScrollAnimation animateIn="fadeIn">
-                    <p className="text-center">Effectively oversee data and their vulnerabilities throughout your <span className="risk-analysis">Security Tools</span></p>
                     <Row className = "about-us-inner">
                         <Col>
                             <h1 className="text-bold"><span id = "about-span">About</span> Us</h1>
