@@ -1,16 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Martian+Mono&family=Quicksand:wght@300;400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
 body {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
   margin: 0;
-  font-family: 'Martian Mono', monospace;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Cabin', sans-serif;
+  /* font-family: 'Martian Mono', monospace; */
+  /* font-family: 'Quicksand', sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+ @keyframes fadeInAnimation {
+   0% {
+     opacity: 0;
+   }
+
+   100% {
+     opacity: 1;
+   }
+ }
 .main-bg{
   position: absolute;
   top: 0px;
-  background-image: url(../src/assets/wallpaper04.jpeg);
+  background-image: url(../src/assets/wallpaper06.jpeg);
   left: 0px;
   height: 740px;
   width: 100%;
@@ -55,9 +67,9 @@ header{
 }
 #banner-captions{
   margin: auto;  
-  margin-top: 280px;
+  margin-top: 200px;
   height: 270px;
-  width: 1250px;
+  width: 80%;
 }
 #main-heading{
 
@@ -78,21 +90,19 @@ header{
   font-weight: 100;
 }
 #banner-button-container{
-  margin: auto;
   margin-top: 30px;
   width: 200px;
 }
 #banner-button{
   height: 50px;
-  background-color: transparent;
+  background-color: rgb(185, 185, 85);
   border: 1px solid rgb(245, 245, 18);
-  color: white;
+  color: black;
   width: 100%;
 }
 
 /* button */
 .btn {
-  border-radius: 0;
   padding-top: 12px;
   height: 50px;
   width: 100%;
@@ -108,18 +118,19 @@ header{
 
 .btn:hover {
   color: white;
-}
+    }
 
 .btn-color {
   border-color: rgb(243, 243, 40);
-  color: white;
-}
-    .btn-color::before{
-          background: rgb(243, 243, 40);
+  color: black;
+  background-color: rgb(185, 185, 85);
     }
+    .btn-color::before{
+      background: rgb(243, 243, 40);
+          }
   .btn-color::after {
-    background: rgb(185, 185, 85);
-  }
+    background: rgb(160, 160, 90);
+    }
 
 .btn::before,
 .btn::after {
@@ -127,24 +138,24 @@ header{
   position: absolute;
   z-index: -1;
   transition: all 0.35s cubic-bezier(1,
-    0,
-    0,
+    1,
+    1,
     1);
-}
+  }
 
 .btn-l-r::after {
   height: 100%;
   width: 0;
   top: 0;
-}
+    }
 
 .btn-l-r:hover::after {
   width: 100%;
-}
+  }
 
 .btn-l-r::after {
   left: 0;
-}
+    }
 
 .btnFillup {
   display: inline-block;
@@ -166,7 +177,7 @@ header{
 }
 
 #banner-button :hover{
-  background-color: rgb(133, 133, 66);
+  background-color: rgb(216, 216, 138);
 }
 
 /* end of button */
@@ -175,6 +186,9 @@ header{
   top: 650px;
   min-height: 200px;
   width: 100%;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 #about-us-main p{
   font-size: 32px;
@@ -209,7 +223,7 @@ header{
   margin-top: 80px;
 }
 #masterclass{
-  background-image: url(../src/assets/masterclass-bg.jpg);
+  background-image: url(../src/assets/wallpaper05.jpeg);
   background-size: cover;
   position: absolute;
   width: 100%;
@@ -440,7 +454,7 @@ header{
 }
 
 #productivity{
-  background-image: url(../src/assets/gradient-bg.jpg);
+  background-image: url(../src/assets/wallpaper09.jpeg);
   background-size: cover;
   padding-top: 100px;
   height: 450px;
@@ -460,9 +474,66 @@ header{
   width: 60%;
 }
 .productivity-btn{
+  margin: auto;
   padding-bottom: 100px;
+
+}
+.btn {
+  padding-top: 12px;
+  height: 50px;
+  width: 100%;
+  text-decoration: none;
+  position: relative;
+  border: 1px solid white;
+  z-index: 20;
+  transition: all 0.35s cubic-bezier(1,
+      0,
+      0,
+      1);
 }
 
+.btn:hover {
+  color: white;
+}
+
+.btn-color {
+  border-color: rgb(243, 243, 40);
+  color: black;
+  background-color: rgb(185, 185, 85);
+}
+
+.btn-color::before {
+  background: rgb(243, 243, 40);
+}
+
+.btn-color::after {
+  background: rgb(160, 160, 90);
+}
+
+.btn::before,
+.btn::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.35s cubic-bezier(1,
+      1,
+      1,
+      1);
+}
+
+.btn-l-r::after {
+  height: 100%;
+  width: 0;
+  top: 0;
+}
+
+.btn-l-r:hover::after {
+  width: 100%;
+}
+
+.btn-l-r::after {
+  left: 0;
+}
 .footer-btn{
   padding-bottom: 50px;
 }
