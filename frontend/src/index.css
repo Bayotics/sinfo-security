@@ -58,24 +58,40 @@ header{
   /* transition-property: opacity, transform, top;
   transition-timing-function: ease-in-out;
   transition-duration: 0.25s; */
+  transition: all 0.5s ease-in-out;
   min-width: 200px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
   border: 1px solid white;
+  margin-top: 0px;
 }
 
 .drop-menu-item {
   width: 100%;
+  transition: all 0.5s ease-in-out;
 }
 
 .drop-menu-item:hover {
-  background-color: #eee;
+  background-color: #f3f2ee;
   /* transition: all 1s ease-in; */
 }
 
 .drop-menu-item a {
-  color: #555;
+  color: white;
+  font-weight: 100;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  font-size: 16px;
 }
-
+.drop-menu-item a:hover{
+  color: #000000;
+}
+.menu-item:hover{
+  transition: all 0.5s ease-in-out;
+}
+.menu-item-ordinary:hover{
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
 .menu-item:hover .drop-menu {
   transition: all .5s ease-in;
   display: block;

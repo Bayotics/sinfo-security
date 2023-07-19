@@ -111,32 +111,51 @@ function App() {
                 <Row id = "nav-row">
                   <Col>
                     <Nav className="me-auto  w-100  justify-content-start">
-                      <Link to = "/" className='nav-link text-white bold-text'>
-                        <div className="menu-wrap">
+                      <Link to = "/" className='nav-link menu-item-ordinary text-white text-bold'>HOME</Link>
+                      <Link 
+                      to = "/search?category=all&query=all&price=all&rating=all&order=newest&page=1" 
+                      className='nav-link text-white menu-item-ordinary text-bold'>PRODUCTS</Link>
+                      <Link to = "#" className='nav-link text-white text-bold'><div className="menu-wrap">
                           <ul className=" menu">
                               <li className="menu-item ">
-                                  <a href="home-nav">WHY US?</a>
+                                  <a href="home-nav">COMPANY</a>
                                   <ul className="drop-menu">
                                       <li className="drop-menu-item">
                                           <a href="#">About us</a>
                                       </li>
                                       <li className="drop-menu-item">
-                                          <a href="#">Page 2</a>
+                                          <a href="#">Certifications</a>
                                       </li>
                                       <li className="drop-menu-item">
-                                          <a href="#">Page 3</a>
+                                          <a href="#">Contact Us</a>
+                                      </li>
+                                  </ul>
+                              </li>
+                          </ul>
+                        </div></Link>
+                      <Link to = "#" className='nav-link text-white text-bold' id = "contact-nav">
+                        <div className="menu-wrap">
+                          <ul className=" menu">
+                              <li className="menu-item ">
+                                  <a href="home-nav">RESOURCES</a>
+                                  <ul className="drop-menu">
+                                      <li className="drop-menu-item">
+                                          <a href="#">Ebooks</a>
+                                      </li>
+                                      <li className="drop-menu-item">
+                                          <a href="#">Blog</a>
+                                      </li>
+                                      <li className="drop-menu-item">
+                                          <a href="#">Upcoming events</a>
+                                      </li>
+                                      <li className="drop-menu-item">
+                                          <a href="#">Supreme training</a>
                                       </li>
                                   </ul>
                               </li>
                           </ul>
                         </div>
                       </Link>
-                      <Link 
-                      
-                      to = "/search?category=all&query=all&price=all&rating=all&order=newest&page=1" 
-                      className='nav-link text-white bold-text'>COURSES</Link>
-                      <Link to = "/aboutus" className='nav-link text-white bold-text'>ABOUT</Link>
-                      <Link to = "/" className='nav-link text-white bold-text' id = "contact-nav">CONTACT</Link>
                       {/* <Link to = "/" 
                       className='nav-link text-dark'
                       >Dark mode
