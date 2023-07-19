@@ -37,6 +37,52 @@ header{
   width: 97%;
   margin-left: 20px;
 }
+/* hoverable nav */
+.menu,
+.drop-menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+
+.drop-menu {
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  /* transition-property: opacity, transform, top;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.25s; */
+  min-width: 200px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+  border: 1px solid white;
+}
+
+.drop-menu-item {
+  width: 100%;
+}
+
+.drop-menu-item:hover {
+  background-color: #eee;
+  /* transition: all 1s ease-in; */
+}
+
+.drop-menu-item a {
+  color: #555;
+}
+
+.menu-item:hover .drop-menu {
+  transition: all .5s ease-in;
+  display: block;
+
+}
+
+/* end */
 #search-bar {
   width: 300px;
 }
@@ -124,12 +170,12 @@ header{
   border-color: rgb(243, 243, 40);
   color: black;
   background-color: rgb(185, 185, 85);
+  }
+  .btn-color::before{
+    background: rgb(243, 243, 40);
     }
-    .btn-color::before{
-      background: rgb(243, 243, 40);
-          }
   .btn-color::after {
-    background: rgb(160, 160, 90);
+    background: rgb(163, 163, 124);
     }
 
 .btn::before,
@@ -177,7 +223,7 @@ header{
 }
 
 #banner-button :hover{
-  background-color: rgb(216, 216, 138);
+  background-color: transparent;
 }
 
 /* end of button */
@@ -546,6 +592,86 @@ header{
   position: relative;
   top: 1950px;
 }
+/* blog */
+.container-blog{
+    display: flex;
+      width: 100%;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+}
+.card {
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 300px;
+}
+
+.card-header img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  min-height: 250px;
+}
+
+.tag {
+  background: #cccccc;
+  border-radius: 50px;
+  font-size: 12px;
+  margin: 0;
+  color: #fff;
+  padding: 2px 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.tag-teal {
+  background-color: #47bcd4;
+}
+
+.tag-purple {
+  background-color: #5e76bf;
+}
+
+.tag-pink {
+  background-color: #cd5b9f;
+}
+
+.card-body p {
+  font-size: 13px;
+  margin: 0 0 40px;
+}
+
+.user {
+  display: flex;
+  margin-top: auto;
+}
+
+.user img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.user-info h5 {
+  margin: 0;
+}
+
+.user-info small {
+  color: #545d7a;
+}
+
+/* end */
 #testimonials-div{
   position: relative;
   top: 1990px;

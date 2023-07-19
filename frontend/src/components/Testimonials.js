@@ -49,8 +49,8 @@ Supreme information is for us the main point of contact when we have cybersecuri
                                 <i class="fa fa-quote-right" aria-hidden="true"></i>
                             </p>
                         </div>
-                        <p className='text-center text-bold'>Name</p>
-                        <p className='text-center'>occupation</p>
+                        <p className='text-center text-bold'>Olivia</p>
+                        <p className='text-center'>Db Administrator</p>
                     </div>
                 </Col>
                 <Col className='border' id='testimonial-card-main-three'>
@@ -85,8 +85,8 @@ Supreme information is for us the main point of contact when we have cybersecuri
                                 <i class="fa fa-quote-right" aria-hidden="true"></i>
                             </p>
                         </div>
-                        <p className='text-center text-bold'>Name</p>
-                        <p className='text-center'>occupation</p>
+                        <p className='text-center text-bold'>Lizzy</p>
+                        <p className='text-center'>Product manager</p>
                     </div>
                 </Col>
             </Row>

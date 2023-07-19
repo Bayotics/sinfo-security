@@ -111,8 +111,28 @@ function App() {
                 <Row id = "nav-row">
                   <Col>
                     <Nav className="me-auto  w-100  justify-content-start">
-                      <Link to = "/" className='nav-link text-white bold-text'>HOME</Link>
+                      <Link to = "/" className='nav-link text-white bold-text'>
+                        <div className="menu-wrap">
+                          <ul className=" menu">
+                              <li className="menu-item ">
+                                  <a href="home-nav">WHY US?</a>
+                                  <ul className="drop-menu">
+                                      <li className="drop-menu-item">
+                                          <a href="#">About us</a>
+                                      </li>
+                                      <li className="drop-menu-item">
+                                          <a href="#">Page 2</a>
+                                      </li>
+                                      <li className="drop-menu-item">
+                                          <a href="#">Page 3</a>
+                                      </li>
+                                  </ul>
+                              </li>
+                          </ul>
+                        </div>
+                      </Link>
                       <Link 
+                      
                       to = "/search?category=all&query=all&price=all&rating=all&order=newest&page=1" 
                       className='nav-link text-white bold-text'>COURSES</Link>
                       <Link to = "/aboutus" className='nav-link text-white bold-text'>ABOUT</Link>
