@@ -63,7 +63,7 @@ Supreme information is for us the main point of contact when we have cybersecuri
                         <div id='testimonial-text'>
                             <p>
                                 <span>
-                                    <i class="fa fa-quote-left" aria-hidden="true"></i></span> I approached Bit Sentinel a couple of years ago when we needed a trustworthy cybersecurity partner with whom to develop BIS Threat Map. The team coordinated by Andrei proved to be very efficient & flexible in our collaboration. 
+                                    <i class="fa fa-quote-left" aria-hidden="true"></i></span> I approached Supreme a couple of months ago when we needed a trustworthy cybersecurity partner with whom to develop BIS Threat Map. The team coordinated by Andrei proved to be very efficient & flexible in our collaboration. 
                                 <i class="fa fa-quote-right" aria-hidden="true"></i>
                             </p>
                         </div>

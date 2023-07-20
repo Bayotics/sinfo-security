@@ -1436,6 +1436,15 @@ product-details-tab {
 #main-bg{
   width: 100%;
 }
+#search-outer{
+  width: 150px;
+}
+.navbar-light .navbar-toggler-icon{
+  background-image: url(../src/assets/toggler.png);
+}
+#basic-navbar-nav {
+  background-color: #140944;
+}
 .banner-right{
   width: 100%;
 }
@@ -1470,13 +1479,22 @@ product-details-tab {
 }
 #security-row{
   display: block;
-  margin-top: 680px;
+  margin-top: 750px;
+  /* border: 1px solid black; */
 }
 #security-actions-heading-img{
   width: 90%;
   margin: auto;
   margin-left: 30px;
   margin-top: 30px;
+  position: relative;
+  bottom: 400px;
+  
+  /* display: none; */
+}
+#security-actions-heading{
+  position: relative;
+  top: 600px;
 }
 #included-features-heading{
   width: 60%;
@@ -1488,10 +1506,15 @@ product-details-tab {
   display: block;
 }
 #included-features-card-item{
+  width: 95%;
+  margin: auto;
   margin-bottom: 50px;
 }
+#card-p{
+  font-size: 18px;
+}
 #productivity-main{
-  top: 6750px
+  top: 6850px
 }
 #productivity-captions{
   top: 55px;
@@ -1519,6 +1542,10 @@ product-details-tab {
 #main-testimonial-cards{
   display: block;
 }
+#testimonial-text{
+  margin: auto;
+  font-size: 18px;
+}
 #testimonial-card-main{
   width: 90%;
   margin-bottom: 30px;
@@ -1540,6 +1567,226 @@ product-details-tab {
   margin-left: 28px;
 }
 .main-footer {
-  top: 11200px;
+  top: 11400px;
 }
+#footer-inner {
+  display: block;
+}
+
+#footer-lower {
+  display: block;
+}
+}
+
+
+/* iphone xr and iphone 11 */
+@media screen and (min-width: 413.5px) and (max-width: 420px) {
+#main-bg {
+  width: 100%;
+  }
+.main-bg{
+  height: 900px;
+}
+#basic-navbar-nav{
+  background-color: #140944;
+}
+  #search-outer {
+    width: 150px;
+    /* margin-right: 100px; */
+  }
+  #search-bar{
+    width: 180px;
+  }
+  #nav-right{
+    position: absolute;
+    left: 185px;
+    width: 55%;
+  }
+
+  .navbar-light .navbar-toggler-icon {
+    background-image: url(../src/assets/toggler.png);
+  }
+
+  .banner-right {
+    width: 100%;
+  }
+  #main-heading{
+    margin-left: 15px;
+  }
+  #main-heading-p{
+    margin: auto;
+    width: 60%;
+  }
+  #main-heading-h2{
+    width: 90%;
+    margin: auto;
+
+  }
+  #banner-captions {
+    text-align: center;
+    margin: auto;
+    margin-top: 200px;
+    width: 100%;
+  }
+
+  #banner-button-container {
+    margin: auto;
+    padding-top: 15px;
+  }
+  #about-us-main{
+    top: 750px;
+  }
+  .about-us-left {
+    width: 100%;
+  }
+
+  .about-us-right {
+    display: none;
+  }
+
+  #masterclass {
+    top: 1900px;
+    height: 610px;
+  }
+
+  #masterclass-head {
+    margin: auto;
+    width: 70%;
+  }
+
+  #masterclass-head h1 {
+    font-size: 34px
+  }
+
+  .security-actions {
+    top: 750px;
+  }
+
+  #security-row {
+    display: block;
+    margin-top: 750px;
+    /* border: 1px solid black; */
+  }
+
+  #security-actions-heading-img {
+    width: 90%;
+    margin: auto;
+    margin-left: 20px;
+    margin-top: 30px;
+    position: relative;
+    bottom: 400px;
+
+    /* display: none; */
+  }
+  #actions-img{
+    height: 400px;
+  }
+
+  #security-actions-heading {
+    position: relative;
+    top: 400px;
+  }
+
+  #included-features-heading {
+    width: 60%;
+  }
+
+  #includedFeatures-main {
+    top: 650px;
+  }
+
+  .included-features-row {
+    display: block;
+  }
+
+  #included-features-card-item {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  #card-p {
+    font-size: 18px;
+  }
+
+  #productivity-main {
+    top: 7000px
+  }
+  #productivity{
+    height: 550px;
+  }
+  #productivity-captions {
+    top: 55px;
+  }
+
+  #ourClients-main {
+    top: 650px;
+  }
+
+  .container-blog {
+    display: grid;
+  }
+
+  #blog-div {
+    top: 1380px;
+  }
+
+  .card {
+    width: 95%;
+    margin-bottom: 20px;
+  }
+
+  .container-blog {
+    margin: auto;
+    padding-left: 15px;
+  }
+
+  #testimonials-div {
+    top: 1450px
+  }
+
+  #main-testimonial-cards {
+    display: block;
+    margin-right: 10px;
+  }
+
+  #testimonial-text {
+    margin: auto;
+    font-size: 18px;
+  }
+
+  #testimonial-card-main {
+    width: 90%;
+    margin-bottom: 30px;
+    margin-left: 28px;
+  }
+
+  #testimonial-card-main-four {
+    width: 90%;
+    margin-bottom: 30px;
+    margin-left: 28px;
+  }
+
+  #testimonial-card-main-two {
+    width: 90%;
+    margin-bottom: 30px;
+    margin-left: 28px;
+  }
+
+  #testimonial-card-main-three {
+    width: 90%;
+    margin-bottom: 30px;
+    margin-left: 28px;
+  }
+
+  .main-footer {
+    top: 12000px;
+  }
+  #footer-inner{
+    display: block;
+  }
+  #footer-lower{
+    display: block;
+  }
+
 }

@@ -106,7 +106,7 @@ function App() {
                   alt = "supreme-logo"/>
                 </Navbar.Brand>
               </LinkContainer>
-              <Navbar.Toggle aria-controls="basic-navbar-nav" />
+              <Navbar.Toggle data-bs-theme="white" aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
                 <Row id = "nav-row">
                   <Col>
@@ -163,7 +163,7 @@ function App() {
                       
                     </Nav>
                   </Col>
-                  <Col>
+                  <Col id='nav-right'>
                     <Row>
                       <Col className='' sm={8}>
                         <SearchBox />

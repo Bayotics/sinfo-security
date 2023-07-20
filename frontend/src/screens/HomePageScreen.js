@@ -35,9 +35,13 @@ const HomePageScreen = () => {
                         <Col className='banner-right' xs={8}>
                             <div id="banner-captions" className="">
                                 <div id = "main-heading" className="">
-                                    <p className="text-white text-bold ">PROTECT YOUR DIGITAL ASSETS WITH</p>
+                                    <div id = "main-heading-p">
+                                        <p className="text-white text-bold ">PROTECT YOUR DIGITAL ASSETS WITH</p>
+                                    </div>
                                     <h1 className=" text-white text-bold">Advanced <br /><span id='csc'>Cyber Security</span> <br />Solutions</h1>
-                                    <h2 className="text-white ">Supreme Information Security LLC Provides<br /> exceptional cybersecurity solutions to ensure the<br /> safety and protection of your digital assets</h2>
+                                    <div id = "main-heading-h2">
+                                        <h2 className="text-white ">Supreme Information Security LLC Provides<br /> exceptional cybersecurity solutions to ensure the<br /> safety and protection of your digital assets</h2>
+                                    </div>
                                     <div className="" id = "banner-button-container">
                                         <div className='fill-wrap'>
                                             <div className='btn btn-color btn-l-r'>
