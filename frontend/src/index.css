@@ -1431,7 +1431,11 @@ product-details-tab {
 
 /******************  MOBILE  *********************/
 
-@media screen and (min-width: 588.5px) and (max-width: 650px) {
+
+
+
+/* iphone 14 pro */
+@media screen and (min-width: 588.5px) and (max-width: 600px) {
   /* change max later */
 #main-bg{
   width: 100%;
@@ -1578,6 +1582,190 @@ product-details-tab {
 }
 }
 
+/* iphone 14 pro max */
+@media screen and (min-width: 601px) and (max-width: 650px) {
+#main-bg {
+    width: 100%;
+  }
+
+  #search-outer {
+    width: 150px;
+  }
+
+  .navbar-light .navbar-toggler-icon {
+    background-image: url(../src/assets/toggler.png);
+  }
+
+  #basic-navbar-nav {
+    background-color: #140944;
+  }
+
+  .banner-right {
+    width: 100%;
+  }
+
+  #banner-captions {
+    text-align: center;
+    margin: auto;
+    margin-top: 200px;
+    width: 100%;
+  }
+
+  #banner-button-container {
+    margin: auto;
+    padding-top: 15px;
+  }
+
+  .about-us-left {
+    width: 100%;
+  }
+
+  .about-us-right {
+    display: none;
+  }
+
+  #masterclass {
+    height: 500px;
+  }
+
+  #masterclass-head {
+    margin: auto;
+    width: 70%;
+  }
+
+  #masterclass-head h1 {
+    font-size: 34px
+  }
+
+  .security-actions {
+    top: 750px;
+  }
+
+  #security-row {
+    display: block;
+    margin-top: 750px;
+    /* border: 1px solid black; */
+  }
+
+  #security-actions-heading-img {
+    width: 90%;
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 30px;
+    position: relative;
+    bottom: 400px;
+
+    /* display: none; */
+  }
+
+  #security-actions-heading {
+    position: relative;
+    top: 600px;
+  }
+
+  #included-features-heading {
+    width: 60%;
+  }
+
+  #includedFeatures-main {
+    top: 750px;
+  }
+
+  .included-features-row {
+    display: block;
+  }
+
+  #included-features-card-item {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  #card-p {
+    font-size: 18px;
+  }
+
+  #productivity-main {
+    top: 6850px
+  }
+
+  #productivity-captions {
+    top: 55px;
+  }
+
+  #ourClients-main {
+    top: 750px;
+  }
+
+  .container-blog {
+    display: grid;
+  }
+
+  #blog-div {
+    top: 1380px;
+  }
+
+  .card {
+    width: 95%;
+    margin-bottom: 20px;
+  }
+
+  .container-blog {
+    margin: auto;
+    padding-left: 15px;
+  }
+
+  #testimonials-div {
+    top: 1450px
+  }
+
+  #main-testimonial-cards {
+    display: block;
+    margin-left: 0;
+  }
+
+  #testimonial-text {
+    margin: auto;
+    font-size: 18px;
+  }
+
+  #testimonial-card-main {
+    width: 90%;
+    margin-bottom: 30px;
+    margin-left: 28px;
+  }
+
+  #testimonial-card-main-four {
+    width: 90%;
+    margin-bottom: 30px;
+    margin-left: 28px;
+  }
+
+  #testimonial-card-main-two {
+    width: 90%;
+    margin-bottom: 30px;
+    margin-left: 28px;
+  }
+
+  #testimonial-card-main-three {
+    width: 90%;
+    margin-bottom: 30px;
+    margin-left: 28px;
+  }
+
+  .main-footer {
+    top: 11400px;
+  }
+
+  #footer-inner {
+    display: block;
+  }
+
+  #footer-lower {
+    display: block;
+  }
+
+}
 
 /* iphone xr and iphone 11 */
 @media screen and (min-width: 413.5px) and (max-width: 420px) {
