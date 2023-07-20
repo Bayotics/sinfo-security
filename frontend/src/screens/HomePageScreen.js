@@ -32,7 +32,7 @@ const HomePageScreen = () => {
                     <Row className='w-100'>
                         <Col xs={4}>
                         </Col>
-                        <Col className='' xs={8}>
+                        <Col className='banner-right' xs={8}>
                             <div id="banner-captions" className="">
                                 <div id = "main-heading" className="">
                                     <p className="text-white text-bold ">PROTECT YOUR DIGITAL ASSETS WITH</p>
@@ -54,7 +54,7 @@ const HomePageScreen = () => {
             <div className="mt-4" id="about-us-main">
                 <ScrollAnimation animateIn="fadeIn">
                     <Row className = "about-us-inner">
-                        <Col>
+                        <Col className = "about-us-left">
                             <h1 className="text-bold"><span id = "about-span">About</span> Us</h1>
                             <h6>Welcome to Supreme Information Security LLC.  We are a New York-based Information Security, Information Technology, and Project Management consulting firm regarded as the industry leader in Cyber Security and Project Management.
                             
@@ -65,7 +65,7 @@ const HomePageScreen = () => {
                             <br />
                                 In the last five years, we have built a solid reputation as an entity proficient in Cyber Security with substantial expertise, experience in Project Management, and resources to identify, analyze, and mitigate risks and compliance threats for the public and private sectors</h6>
                         </Col>
-                        <Col>
+                        <Col className = "about-us-right">
                             <div className='' id = "about-us-logo">
                                 <img id= "sinfo-logo"src={sinfoLogo} alt = "sinfo-logo" />
                             </div>
@@ -75,7 +75,9 @@ const HomePageScreen = () => {
             </div>
             <div className='' id = "masterclass">
                 <ScrollAnimation animateIn="fadeIn">
-                    <h1 className='text-white text-center'>Attain Assurance in Your Security Solution</h1>
+                    <div  className='' id='masterclass-head'>
+                        <h1 className='text-white text-center'>Attain Assurance in Your Security Solution</h1>
+                    </div>
                     <div className='w-50' id = "masterclass-sub"><p className='text-white text-center'>Join Supreme Training's CyberSecurity MasterClass and Get Certified!
                         <br />
                         Coming up August 16
@@ -99,7 +101,7 @@ const HomePageScreen = () => {
             </div>
             <div className='mt-4 security-actions'>
                 <ScrollAnimation animateIn="fadeIn">
-                    <Row>
+                    <Row id='security-row'>
                         <Col>
                             <div className='' id = "security-actions-heading">
                                 <h1>Modern Security Actions That Safeguard Your Business</h1>

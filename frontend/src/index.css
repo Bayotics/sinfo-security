@@ -1413,3 +1413,133 @@ product-details-tab {
 .team-main{
   margin-top: 50px;;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************  MOBILE  *********************/
+
+@media screen and (min-width: 588.5px) and (max-width: 650px) {
+  /* change max later */
+#main-bg{
+  width: 100%;
+}
+.banner-right{
+  width: 100%;
+}
+#banner-captions{
+  text-align: center;
+  margin: auto;
+  margin-top: 200px;
+  width: 100%;
+}
+#banner-button-container{
+  margin: auto;
+  padding-top: 15px;
+}
+.about-us-left{
+  width: 100%;
+}
+.about-us-right{
+  display: none;
+}
+#masterclass{
+  height: 500px;
+}
+#masterclass-head{
+  margin: auto;
+  width: 70%;
+}
+#masterclass-head h1{
+  font-size: 34px
+}
+.security-actions{
+  top: 750px;
+}
+#security-row{
+  display: block;
+  margin-top: 680px;
+}
+#security-actions-heading-img{
+  width: 90%;
+  margin: auto;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+#included-features-heading{
+  width: 60%;
+}
+#includedFeatures-main{
+  top: 750px;
+}
+.included-features-row{
+  display: block;
+}
+#included-features-card-item{
+  margin-bottom: 50px;
+}
+#productivity-main{
+  top: 6750px
+}
+#productivity-captions{
+  top: 55px;
+}
+#ourClients-main{
+  top: 750px;
+}
+.container-blog{
+  display: grid;
+}
+#blog-div{
+  top: 1380px;
+}
+.card{
+  width: 95%;
+  margin-bottom: 20px;
+}
+.container-blog{
+  margin: auto;
+  padding-left: 15px;
+}
+#testimonials-div{
+  top: 1450px
+}
+#main-testimonial-cards{
+  display: block;
+}
+#testimonial-card-main{
+  width: 90%;
+  margin-bottom: 30px;
+  margin-left: 28px;
+}
+#testimonial-card-main-four {
+  width: 90%;
+  margin-bottom: 30px;
+  margin-left: 28px;
+}
+#testimonial-card-main-two {
+  width: 90%;
+  margin-bottom: 30px;
+  margin-left: 28px;
+}
+#testimonial-card-main-three {
+  width: 90%;
+  margin-bottom: 30px;
+  margin-left: 28px;
+}
+.main-footer {
+  top: 11200px;
+}
+}

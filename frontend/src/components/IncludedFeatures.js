@@ -9,7 +9,7 @@ const IncludedFeatures = () => {
                 <p className="text-center mt-4">Selected features</p>
             </div>
             <div className="mt-4" id = "included-features-cards">
-                <Row className='gap-4'>
+                <Row className='gap-4 included-features-row'>
                     <Col className=''>
                         <div className='border' id='included-features-card-item'>
                             <div className='' id = "card-item-inner">
@@ -55,7 +55,7 @@ const IncludedFeatures = () => {
                         </div>
                     </Col>
                 </Row>
-                <Row className='gap-4' id = "cards-lower">
+                <Row className='gap-4 included-features-row' id = "cards-lower">
                     <Col className=''>
                         <div className='border' id='included-features-card-item'>
                             <div className='' id = "card-item-inner">
