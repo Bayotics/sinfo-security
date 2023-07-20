@@ -1833,8 +1833,8 @@ product-details-tab {
   }
 
   #masterclass {
-    top: 1900px;
-    height: 610px;
+    top: 1880px;
+    height: 580px;
   }
 
   #masterclass-head {
@@ -1864,7 +1864,7 @@ product-details-tab {
     position: relative;
     bottom: 400px;
 
-    /* display: none; */
+    /* disply: none; */
   }
   #actions-img{
     height: 400px;
