@@ -59,7 +59,7 @@ const HomePageScreen = () => {
                 <ScrollAnimation animateIn="fadeIn">
                     <Row className = "about-us-inner">
                         <Col className = "about-us-left">
-                            <h1 className="text-bold"><span id = "about-span">About</span> Us</h1>
+                            <h1 className="text-bold text-center"><span id = "about-span">About</span> Us</h1>
                             <h6>Welcome to Supreme Information Security LLC.  We are a New York-based Information Security, Information Technology, and Project Management consulting firm regarded as the industry leader in Cyber Security and Project Management.
                             
                             <br />
@@ -69,16 +69,15 @@ const HomePageScreen = () => {
                             <br />
                                 In the last five years, we have built a solid reputation as an entity proficient in Cyber Security with substantial expertise, experience in Project Management, and resources to identify, analyze, and mitigate risks and compliance threats for the public and private sectors</h6>
                         </Col>
-                        <Col className = "about-us-right">
+                        {/* <Col className = "about-us-right">
                             <div className='' id = "about-us-logo">
                                 <img id= "sinfo-logo"src={sinfoLogo} alt = "sinfo-logo" />
                             </div>
-                        </Col>
+                        </Col> */}
                     </Row>
                 </ScrollAnimation>                
             </div>
             <div className='' id = "masterclass">
-                <ScrollAnimation animateIn="fadeIn">
                     <div  className='' id='masterclass-head'>
                         <h1 className='text-white text-center'>Attain Assurance in Your Security Solution</h1>
                     </div>
@@ -101,7 +100,6 @@ const HomePageScreen = () => {
                         </div>
                     </div>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fillOpacity="1" d="M0,192L80,186.7C160,181,320,171,480,176C640,181,800,203,960,202.7C1120,203,1280,181,1360,170.7L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg> 
-                </ScrollAnimation>
             </div>
             <div className='mt-4 security-actions'>
                 <ScrollAnimation animateIn="fadeIn">

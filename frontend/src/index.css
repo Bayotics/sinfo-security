@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
 body {
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   margin: 0;
-  font-family: 'Cabin', sans-serif;
   /* font-family: 'Martian Mono', monospace; */
   /* font-family: 'Quicksand', sans-serif; */
   -webkit-font-smoothing: antialiased;
@@ -32,6 +32,9 @@ header{
   position:relative;
   top: 2px;
   z-index: 1;
+}
+#sign-in-page{
+  /* background-image: url(../src/assets/wallpaper09.jpeg); */
 }
 #nav-row{
   width: 97%;
@@ -183,7 +186,7 @@ header{
     }
 
 .btn-color {
-  border-color: rgb(243, 243, 40);
+  border-color: transparent;
   color: black;
   background-color: rgb(185, 185, 85);
   }
@@ -191,7 +194,7 @@ header{
     background: rgb(243, 243, 40);
     }
   .btn-color::after {
-    background: rgb(163, 163, 124);
+    background: rgb(122, 122, 90);
     }
 
 .btn::before,
@@ -218,25 +221,6 @@ header{
 .btn-l-r::after {
   left: 0;
     }
-
-.btnFillup {
-  display: inline-block;
-  padding: 16px;
-  overflow: hidden;
-  color: rgb(133, 133, 66);
-  text-decoration: none;
-  border: 1px solid rgb(243, 243, 40);
-  border-radius: 3px;
-  background-position: 0 -100%;
-  background-repeat: repeat-x;
-  transition: background-position 0.8s ease;
-}
-
-.btnFillup:hover {
-  background-position: 100% 50%;
-  border-color: rgb(133, 133, 66);
-  color: white;
-}
 
 #banner-button :hover{
   background-color: transparent;
@@ -290,7 +274,7 @@ header{
   background-size: cover;
   position: absolute;
   width: 100%;
-  top: 1600px;
+  top: 1400px;
   left: 0px;
   padding-bottom: 0px;
   height: 500px;
@@ -511,7 +495,7 @@ header{
 #productivity-main{
   position: absolute;
   width: 100%;
-  top: 4150px;
+  top: 3850px;
   margin-top: 120px;
   left: 0px;
 }
@@ -560,7 +544,7 @@ header{
 }
 
 .btn-color {
-  border-color: rgb(243, 243, 40);
+  border-color: rgb(237, 240, 96);
   color: black;
   background-color: rgb(185, 185, 85);
 }
@@ -570,7 +554,7 @@ header{
 }
 
 .btn-color::after {
-  background: rgb(160, 160, 90);
+  background: rgb(145, 134, 34);
 }
 
 .btn::before,
@@ -1429,9 +1413,1379 @@ product-details-tab {
 
 
 
+
+
+
 /******************  MOBILE  *********************/
 
+/* Galaxy fold */
+@media screen and (min-width: 279.5px) and (max-width: 348px) {
+  #main-bg {
+      width: 100%;
+    }
+  
+    .main-bg {
+      height: 900px;
+    }
+  
+    #basic-navbar-nav {
+      background-color: #140944;
+      margin-right: 5PX;
+    }
+  
+    #search-outer {
+      width: 100px;
+      /* margin-right: 100px; */
+    }
+  
+    #search-bar {
+      width: 100px;
+    }
+  
+    #nav-right {
+      position: absolute;
+      left: 185px;
+      width: 45%;
+    }
+  
+    .navbar-light .navbar-toggler-icon {
+      background-image: url(../src/assets/toggler.png);
+    }
+  
+    .banner-right {
+      width: 100%;
+    }
+  
+    #main-heading {
+      margin-left: 15px;
+    }
+  
+    #main-heading h1 {
+      font-size: 46px;
+    }
+  
+    #main-heading-p {
+      margin: auto;
+      width: 60%;
+    }
+  
+    #main-heading-h2 {
+      width: 90%;
+      margin: auto;
+  
+    }
+  
+    #banner-captions {
+      text-align: center;
+      margin: auto;
+      margin-top: 200px;
+      width: 100%;
+    }
+  
+    #banner-button-container {
+      margin: auto;
+      padding-top: 15px;
+    }
+  
+    #about-us-main {
+      top: 750px;
+    }
+  
+    .about-us-left {
+      width: 100%;
+    }
+  
+    .about-us-right {
+      display: none;
+    }
+  
+    #masterclass {
+      top: 2550px;
+      height: 750px;
+    }
+  
+    #masterclass-head {
+      margin: auto;
+      width: 70%;
+    }
+  
+    #masterclass-head h1 {
+      font-size: 34px
+    }
+  
+    .security-actions {
+      top: 750px;
+    }
+  
+    #security-row {
+      display: block;
+      margin-top: 700px;
+    }
+  
+    #security-actions-heading-img {
+      width: 90%;
+      margin: auto;
+      margin-left: 20px;
+      margin-top: 30px;
+      position: relative;
+      bottom: 420px;
+    }
+  
+    #actions-img {
+      height: 280px;
+    }
+  
+    #security-actions-heading {
+      position: relative;
+      top: 440px;
+    }
+  
+    #included-features-heading {
+      width: 60%;
+    }
+  
+    #includedFeatures-main {
+      top: 750px;
+    }
+    #included-features-card-item {
+      height: 370px;
+    }
+    .included-features-row {
+      display: block;
+    }
+  
+    #included-features-card-item {
+      width: 95%;
+      margin: auto;
+      margin-bottom: 50px;
+    }
+  
+    #card-p {
+      font-size: 18px;
+    }
+  
+    #productivity-main {
+      top: 8450px
+    }
+  
+    #productivity {
+      height: 640px;
+    }
+  
+    #productivity-captions {
+      top: 55px;
+    }
+  
+    #ourClients-main {
+      top: 650px;
+    }
+  
+    .container-blog {
+      display: grid;
+    }
+  
+    #blog-div {
+      top: 1380px;
+    }
+  
+    .card {
+      width: 95%;
+      margin-bottom: 20px;
+    }
+  
+    .container-blog {
+      margin: auto;
+      padding-left: 0px;
+    }
+  
+    #testimonials-div {
+      top: 1450px
+    }
+  
+    #main-testimonial-cards {
+      display: block;
+      margin-right: 10px;
+    }
+  
+    #testimonial-text {
+      margin: auto;
+      font-size: 18px;
+    }
+  
+    #testimonial-card-main {
+      width: 90%;
+      margin-bottom: 30px;
+      margin-left: 24px;
+    }
+  
+    #testimonial-card-main-four {
+      width: 90%;
+      margin-bottom: 30px;
+      margin-left: 24px;
+    }
+  
+    #testimonial-card-main-two {
+      width: 90%;
+      margin-bottom: 30px;
+      margin-left: 24px;
+    }
+  
+    #testimonial-card-main-three {
+      width: 90%;
+      margin-bottom: 30px;
+      margin-left: 24px;
+    }
+  
+    .main-footer {
+      top: 14300px;
+    }
+  
+    #footer-inner {
+      display: block;
+    }
+  
+    #footer-lower {
+      display: block;
+    }
 
+}
+/* SAMSUNG S8+ */
+@media screen and (min-width: 349.5px) and (max-width: 380px) {
+#main-bg {
+    width: 100%;
+  }
+
+  .main-bg {
+    height: 900px;
+  }
+
+  #basic-navbar-nav {
+    background-color: #140944;
+    margin-right: 5PX;
+  }
+
+  #search-outer {
+    width: 100px;
+    /* margin-right: 100px; */
+  }
+
+  #search-bar {
+    width: 100px;
+  }
+
+  #nav-right {
+    position: absolute;
+    left: 185px;
+    width: 45%;
+  }
+
+  .navbar-light .navbar-toggler-icon {
+    background-image: url(../src/assets/toggler.png);
+  }
+
+  .banner-right {
+    width: 100%;
+  }
+
+  #main-heading {
+    margin-left: 15px;
+  }
+  #main-heading h1{
+    font-size: 46px;
+  }
+  #main-heading-p {
+    margin: auto;
+    width: 60%;
+  }
+
+  #main-heading-h2 {
+    width: 90%;
+    margin: auto;
+
+  }
+
+  #banner-captions {
+    text-align: center;
+    margin: auto;
+    margin-top: 200px;
+    width: 100%;
+  }
+
+  #banner-button-container {
+    margin: auto;
+    padding-top: 15px;
+  }
+
+  #about-us-main {
+    top: 750px;
+  }
+
+  .about-us-left {
+    width: 100%;
+  }
+
+  .about-us-right {
+    display: none;
+  }
+
+  #masterclass {
+    top: 2025px;
+    height: 685px;
+  }
+
+  #masterclass-head {
+    margin: auto;
+    width: 70%;
+  }
+
+  #masterclass-head h1 {
+    font-size: 34px
+  }
+
+  .security-actions {
+    top: 750px;
+  }
+
+  #security-row {
+    display: block;
+    margin-top: 750px;
+  }
+
+  #security-actions-heading-img {
+    width: 90%;
+    margin: auto;
+    margin-left: 20px;
+    margin-top: 30px;
+    position: relative;
+    bottom: 400px;
+  }
+
+  #actions-img {
+    height: 350px;
+  }
+
+  #security-actions-heading {
+    position: relative;
+    top: 410px;
+  }
+
+  #included-features-heading {
+    width: 60%;
+  }
+
+  #includedFeatures-main {
+    top: 650px;
+  }
+
+  .included-features-row {
+    display: block;
+  }
+
+  #included-features-card-item {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  #card-p {
+    font-size: 18px;
+  }
+
+  #productivity-main {
+    top: 7250px
+  }
+
+  #productivity {
+    height: 550px;
+  }
+
+  #productivity-captions {
+    top: 55px;
+  }
+
+  #ourClients-main {
+    top: 650px;
+  }
+
+  .container-blog {
+    display: grid;
+  }
+
+  #blog-div {
+    top: 1380px;
+  }
+
+  .card {
+    width: 95%;
+    margin-bottom: 20px;
+  }
+
+  .container-blog {
+    margin: auto;
+    padding-left: 0px;
+  }
+
+  #testimonials-div {
+    top: 1450px
+  }
+
+  #main-testimonial-cards {
+    display: block;
+    margin-right: 10px;
+  }
+
+  #testimonial-text {
+    margin: auto;
+    font-size: 18px;
+  }
+
+  #testimonial-card-main {
+    width: 90%;
+    margin-bottom: 30px;
+    margin-left: 28px;
+  }
+
+  #testimonial-card-main-four {
+    width: 90%;
+    margin-bottom: 30px;
+    margin-left: 28px;
+  }
+
+  #testimonial-card-main-two {
+    width: 90%;
+    margin-bottom: 30px;
+    margin-left: 28px;
+  }
+
+  #testimonial-card-main-three {
+    width: 90%;
+    margin-bottom: 30px;
+    margin-left: 28px;
+  }
+
+  .main-footer {
+    top: 12500px;
+  }
+
+  #footer-inner {
+    display: block;
+  }
+
+  #footer-lower {
+    display: block;
+  }
+}
+
+
+
+/* iphone 12 pro */
+@media screen and (min-width: 389.5px) and (max-width: 409.9px){
+#main-bg {
+    width: 100%;
+  }
+
+  .main-bg {
+    height: 900px;
+  }
+
+  #basic-navbar-nav {
+    background-color: #140944;
+  }
+
+  #search-outer {
+    width: 150px;
+    /* margin-right: 100px; */
+  }
+
+  #search-bar {
+    width: 180px;
+  }
+
+  #nav-right {
+    position: absolute;
+    left: 185px;
+    width: 55%;
+  }
+
+  .navbar-light .navbar-toggler-icon {
+    background-image: url(../src/assets/toggler.png);
+  }
+
+  .banner-right {
+    width: 100%;
+  }
+
+  #main-heading {
+    margin-left: 15px;
+  }
+
+  #main-heading-p {
+    margin: auto;
+    width: 60%;
+  }
+
+  #main-heading-h2 {
+    width: 90%;
+    margin: auto;
+
+  }
+
+  #banner-captions {
+    text-align: center;
+    margin: auto;
+    margin-top: 200px;
+    width: 100%;
+  }
+
+  #banner-button-container {
+    margin: auto;
+    padding-top: 15px;
+  }
+
+  #about-us-main {
+    top: 750px;
+  }
+
+  .about-us-left {
+    width: 100%;
+  }
+
+  .about-us-right {
+    display: none;
+  }
+
+  #masterclass {
+    top: 1950px;
+    height: 630px;
+  }
+
+  #masterclass-head {
+    margin: auto;
+    width: 70%;
+  }
+
+  #masterclass-head h1 {
+    font-size: 34px
+  }
+
+  .security-actions {
+    top: 750px;
+  }
+
+  #security-row {
+    display: block;
+    margin-top: 750px;
+  }
+
+  #security-actions-heading-img {
+    width: 90%;
+    margin: auto;
+    margin-left: 20px;
+    margin-top: 30px;
+    position: relative;
+    bottom: 400px;
+  }
+
+  #actions-img {
+    height: 400px;
+  }
+
+  #security-actions-heading {
+    position: relative;
+    top: 450px;
+  }
+
+  #included-features-heading {
+    width: 60%;
+  }
+
+  #includedFeatures-main {
+    top: 650px;
+  }
+
+  .included-features-row {
+    display: block;
+  }
+
+  #included-features-card-item {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  #card-p {
+    font-size: 18px;
+  }
+
+  #productivity-main {
+    top: 7100px
+  }
+
+  #productivity {
+    height: 550px;
+  }
+
+  #productivity-captions {
+    top: 55px;
+  }
+
+  #ourClients-main {
+    top: 650px;
+  }
+
+  .container-blog {
+    display: grid;
+  }
+
+  #blog-div {
+    top: 1380px;
+  }
+
+  .card {
+    width: 95%;
+    margin-bottom: 20px;
+  }
+
+  .container-blog {
+    margin: auto;
+    padding-left: 15px;
+  }
+
+  #testimonials-div {
+    top: 1450px
+  }
+
+  #main-testimonial-cards {
+    display: block;
+    margin-right: 10px;
+  }
+
+  #testimonial-text {
+    margin: auto;
+    font-size: 18px;
+  }
+
+  #testimonial-card-main {
+    width: 90%;
+    margin-bottom: 30px;
+    margin-left: 30px;
+  }
+
+  #testimonial-card-main-four {
+    width: 90%;
+    margin-bottom: 30px;
+    margin-left: 30px;
+  }
+
+  #testimonial-card-main-two {
+    width: 90%;
+    margin-bottom: 30px;
+    margin-left: 30px;
+  }
+
+  #testimonial-card-main-three {
+    width: 90%;
+    margin-bottom: 30px;
+    margin-left: 30px;
+  }
+
+  .main-footer {
+    top: 12300px;
+  }
+
+  #footer-inner {
+    display: block;
+  }
+
+  #footer-lower {
+    display: block;
+  }
+}
+
+
+
+/* iphone xr and iphone 11 */
+@media screen and (min-width: 410px) and (max-width: 420px) {
+  #main-bg {
+    width: 100%;
+  }
+
+  .main-bg {
+    height: 900px;
+  }
+
+  #basic-navbar-nav {
+    background-color: #140944;
+  }
+
+  #search-outer {
+    width: 150px;
+    /* margin-right: 100px; */
+  }
+
+  #search-bar {
+    width: 180px;
+  }
+
+  #nav-right {
+    position: absolute;
+    left: 185px;
+    width: 55%;
+  }
+
+  .navbar-light .navbar-toggler-icon {
+    background-image: url(../src/assets/toggler.png);
+  }
+
+  .banner-right {
+    width: 100%;
+  }
+
+  #main-heading {
+    margin-left: 15px;
+  }
+
+  #main-heading-p {
+    margin: auto;
+    width: 60%;
+  }
+
+  #main-heading-h2 {
+    width: 90%;
+    margin: auto;
+
+  }
+
+  #banner-captions {
+    text-align: center;
+    margin: auto;
+    margin-top: 200px;
+    width: 100%;
+  }
+
+  #banner-button-container {
+    margin: auto;
+    padding-top: 15px;
+  }
+
+  #about-us-main {
+    top: 750px;
+  }
+
+  .about-us-left {
+    width: 100%;
+  }
+
+  .about-us-right {
+    display: none;
+  }
+
+  #masterclass {
+    top: 1950px;
+    height: 610px;
+  }
+
+  #masterclass-head {
+    margin: auto;
+    width: 70%;
+  }
+
+  #masterclass-head h1 {
+    font-size: 34px
+  }
+
+  .security-actions {
+    top: 750px;
+  }
+
+  #security-row {
+    display: block;
+    margin-top: 750px;
+    /* border: 1px solid black; */
+  }
+
+  #security-actions-heading-img {
+    width: 90%;
+    margin: auto;
+    margin-left: 20px;
+    margin-top: 30px;
+    position: relative;
+    bottom: 400px;
+
+    /* disply: none; */
+  }
+
+  #actions-img {
+    height: 400px;
+  }
+
+  #security-actions-heading {
+    position: relative;
+    top: 450px;
+  }
+
+  #included-features-heading {
+    width: 60%;
+  }
+
+  #includedFeatures-main {
+    top: 650px;
+  }
+
+  .included-features-row {
+    display: block;
+  }
+
+  #included-features-card-item {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  #card-p {
+    font-size: 18px;
+  }
+
+  #productivity-main {
+    top: 7100px
+  }
+
+  #productivity {
+    height: 550px;
+  }
+
+  #productivity-captions {
+    top: 55px;
+  }
+
+  #ourClients-main {
+    top: 650px;
+  }
+
+  .container-blog {
+    display: grid;
+  }
+
+  #blog-div {
+    top: 1380px;
+  }
+
+  .card {
+    width: 95%;
+    margin-bottom: 20px;
+  }
+
+  .container-blog {
+    margin: auto;
+    padding-left: 15px;
+  }
+
+  #testimonials-div {
+    top: 1450px
+  }
+
+  #main-testimonial-cards {
+    display: block;
+    margin-right: 10px;
+  }
+
+  #testimonial-text {
+    margin: auto;
+    font-size: 18px;
+  }
+
+  #testimonial-card-main {
+    width: 90%;
+    margin-bottom: 30px;
+    margin-left: 32px;
+  }
+
+  #testimonial-card-main-four {
+    width: 90%;
+    margin-bottom: 30px;
+    margin-left: 32px;
+  }
+
+  #testimonial-card-main-two {
+    width: 90%;
+    margin-bottom: 30px;
+    margin-left: 32px;
+  }
+
+  #testimonial-card-main-three {
+    width: 90%;
+    margin-bottom: 30px;
+    margin-left: 32px;
+  }
+
+  .main-footer {
+    top: 12100px;
+  }
+
+  #footer-inner {
+    display: block;
+  }
+
+  #footer-lower {
+    display: block;
+  }
+
+}
+
+
+@media screen and (min-width: 421px) and (max-width: 480px){
+  #main-bg {
+      width: 100%;
+    }
+  
+    .main-bg {
+      height: 900px;
+    }
+  
+    #basic-navbar-nav {
+      background-color: #140944;
+    }
+  
+    #search-outer {
+      width: 150px;
+      /* margin-right: 100px; */
+    }
+  
+    #search-bar {
+      width: 180px;
+    }
+  
+    #nav-right {
+      position: absolute;
+      left: 185px;
+      width: 55%;
+    }
+  
+    .navbar-light .navbar-toggler-icon {
+      background-image: url(../src/assets/toggler.png);
+    }
+  
+    .banner-right {
+      width: 100%;
+    }
+  
+    #main-heading {
+      margin-left: 15px;
+    }
+  
+    #main-heading-p {
+      margin: auto;
+      width: 60%;
+    }
+  
+    #main-heading-h2 {
+      width: 90%;
+      margin: auto;
+  
+    }
+  
+    #banner-captions {
+      text-align: center;
+      margin: auto;
+      margin-top: 200px;
+      width: 100%;
+    }
+  
+    #banner-button-container {
+      margin: auto;
+      padding-top: 15px;
+    }
+  
+    #about-us-main {
+      top: 750px;
+    }
+  
+    .about-us-left {
+      width: 100%;
+    }
+  
+    .about-us-right {
+      display: none;
+    }
+  
+    #masterclass {
+      top: 1950px;
+      height: 610px;
+    }
+  
+    #masterclass-head {
+      margin: auto;
+      width: 70%;
+    }
+  
+    #masterclass-head h1 {
+      font-size: 34px
+    }
+  
+    .security-actions {
+      top: 750px;
+    }
+  
+    #security-row {
+      display: block;
+      margin-top: 750px;
+      /* border: 1px solid black; */
+    }
+  
+    #security-actions-heading-img {
+      width: 90%;
+      margin: auto;
+      margin-left: 20px;
+      margin-top: 30px;
+      position: relative;
+      bottom: 400px;
+  
+      /* disply: none; */
+    }
+  
+    #actions-img {
+      height: 400px;
+    }
+  
+    #security-actions-heading {
+      position: relative;
+      top: 450px;
+    }
+  
+    #included-features-heading {
+      width: 60%;
+    }
+  
+    #includedFeatures-main {
+      top: 650px;
+    }
+  
+    .included-features-row {
+      display: block;
+    }
+  
+    #included-features-card-item {
+      width: 95%;
+      margin: auto;
+      margin-bottom: 50px;
+    }
+  
+    #card-p {
+      font-size: 18px;
+    }
+  
+    #productivity-main {
+      top: 7100px
+    }
+  
+    #productivity {
+      height: 550px;
+    }
+  
+    #productivity-captions {
+      top: 55px;
+    }
+  
+    #ourClients-main {
+      top: 650px;
+    }
+  
+    .container-blog {
+      display: grid;
+    }
+  
+    #blog-div {
+      top: 1380px;
+    }
+  
+    .card {
+      width: 95%;
+      margin-bottom: 20px;
+    }
+  
+    .container-blog {
+      margin: auto;
+      padding-left: 15px;
+    }
+  
+    #testimonials-div {
+      top: 1450px
+    }
+  
+    #main-testimonial-cards {
+      display: block;
+      margin-right: 10px;
+    }
+  
+    #testimonial-text {
+      margin: auto;
+      font-size: 18px;
+    }
+  
+    #testimonial-card-main {
+      width: 90%;
+      margin-bottom: 30px;
+      margin-left: 32px;
+    }
+  
+    #testimonial-card-main-four {
+      width: 90%;
+      margin-bottom: 30px;
+      margin-left: 32px;
+    }
+  
+    #testimonial-card-main-two {
+      width: 90%;
+      margin-bottom: 30px;
+      margin-left: 32px;
+    }
+  
+    #testimonial-card-main-three {
+      width: 90%;
+      margin-bottom: 30px;
+      margin-left: 32px;
+    }
+  
+    .main-footer {
+      top: 12100px;
+    }
+  
+    #footer-inner {
+      display: block;
+    }
+  
+    #footer-lower {
+      display: block;
+    }
+}
+
+
+/* surface duo */
+@media screen and (min-width: 481px) and (max-width: 587px) {
+  #main-bg {
+    width: 100%;
+  }
+
+  .main-bg {
+    height: 900px;
+  }
+
+  #basic-navbar-nav {
+    background-color: #140944;
+  }
+
+  #search-outer {
+    width: 150px;
+    /* margin-right: 100px; */
+  }
+
+  #search-bar {
+    width: 180px;
+  }
+
+  #nav-right {
+    position: absolute;
+    left: 185px;
+    width: 55%;
+  }
+
+  .navbar-light .navbar-toggler-icon {
+    background-image: url(../src/assets/toggler.png);
+  }
+
+  .banner-right {
+    width: 100%;
+  }
+
+  #main-heading {
+    margin-left: 15px;
+  }
+
+  #main-heading-p {
+    margin: auto;
+    width: 60%;
+  }
+
+  #main-heading-h2 {
+    width: 90%;
+    margin: auto;
+
+  }
+
+  #banner-captions {
+    text-align: center;
+    margin: auto;
+    margin-top: 200px;
+    width: 100%;
+  }
+
+  #banner-button-container {
+    margin: auto;
+    padding-top: 15px;
+  }
+
+  #about-us-main {
+    top: 750px;
+  }
+
+  .about-us-left {
+    width: 100%;
+  }
+
+  .about-us-right {
+    display: none;
+  }
+
+  #masterclass {
+    top: 1700px;
+    height: 570px;
+  }
+
+  #masterclass-head {
+    margin: auto;
+    width: 70%;
+  }
+
+  #masterclass-head h1 {
+    font-size: 34px
+  }
+
+  .security-actions {
+    top: 750px;
+  }
+
+  #security-row {
+    display: block;
+    margin-top: 750px;
+    /* border: 1px solid black; */
+  }
+
+  #security-actions-heading-img {
+    width: 90%;
+    margin: auto;
+    margin-left: 25px;
+    margin-top: 30px;
+    position: relative;
+    bottom: 400px;
+
+    /* disply: none; */
+  }
+
+  #actions-img {
+    height: 400px;
+  }
+
+  #security-actions-heading {
+    position: relative;
+    top: 450px;
+  }
+
+  #included-features-heading {
+    width: 60%;
+  }
+
+  #includedFeatures-main {
+    top: 650px;
+  }
+
+  .included-features-row {
+    display: block;
+  }
+
+  #included-features-card-item {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  #card-p {
+    font-size: 18px;
+  }
+
+  #productivity-main {
+    top: 6650px
+  }
+
+  #productivity {
+    height: 550px;
+  }
+
+  #productivity-captions {
+    top: 55px;
+  }
+
+  #ourClients-main {
+    top: 650px;
+  }
+
+  .container-blog {
+    display: grid;
+  }
+
+  #blog-div {
+    top: 1380px;
+  }
+
+  .card {
+    width: 95%;
+    margin-bottom: 20px;
+  }
+
+  .container-blog {
+    margin: auto;
+    padding-left: 15px;
+  }
+
+  #testimonials-div {
+    top: 1450px
+  }
+
+  #main-testimonial-cards {
+    display: block;
+    margin-right: 10px;
+  }
+
+  #testimonial-text {
+    margin: auto;
+    font-size: 18px;
+  }
+
+  #testimonial-card-main {
+    width: 90%;
+    margin-bottom: 30px;
+    margin-left: 36px;
+  }
+
+  #testimonial-card-main-four {
+    width: 90%;
+    margin-bottom: 30px;
+    margin-left: 36px;
+  }
+
+  #testimonial-card-main-two {
+    width: 90%;
+    margin-bottom: 30px;
+    margin-left: 36px;
+  }
+
+  #testimonial-card-main-three {
+    width: 90%;
+    margin-bottom: 30px;
+    margin-left: 36px;
+  }
+
+  .main-footer {
+    top: 11400px;
+  }
+
+  #footer-inner {
+    display: block;
+  }
+
+  #footer-lower {
+    display: block;
+  }
+}
 
 
 /* iphone 14 pro */
@@ -1470,6 +2824,7 @@ product-details-tab {
 }
 #masterclass{
   height: 500px;
+  top: 1650px;
 }
 #masterclass-head{
   margin: auto;
@@ -1571,7 +2926,7 @@ product-details-tab {
   margin-left: 28px;
 }
 .main-footer {
-  top: 11400px;
+  top: 11500px;
 }
 #footer-inner {
   display: block;
@@ -1626,6 +2981,7 @@ product-details-tab {
 
   #masterclass {
     height: 500px;
+    top: 1600px;
   }
 
   #masterclass-head {
@@ -1644,7 +3000,6 @@ product-details-tab {
   #security-row {
     display: block;
     margin-top: 750px;
-    /* border: 1px solid black; */
   }
 
   #security-actions-heading-img {
@@ -1655,7 +3010,6 @@ product-details-tab {
     position: relative;
     bottom: 400px;
 
-    /* display: none; */
   }
 
   #security-actions-heading {
@@ -1767,214 +3121,196 @@ product-details-tab {
 
 }
 
-/* iphone xr and iphone 11 */
-@media screen and (min-width: 413.5px) and (max-width: 420px) {
-#main-bg {
-  width: 100%;
-  }
-.main-bg{
-  height: 900px;
+@media screen and (min-width: 651px) and (max-width: 700px) {
+  #main-bg {
+      width: 100%;
+    }
+  
+    #search-outer {
+      width: 150px;
+    }
+  
+    .navbar-light .navbar-toggler-icon {
+      background-image: url(../src/assets/toggler.png);
+    }
+  
+    #basic-navbar-nav {
+      background-color: #140944;
+    }
+  
+    .banner-right {
+      width: 100%;
+    }
+  
+    #banner-captions {
+      text-align: center;
+      margin: auto;
+      margin-top: 200px;
+      width: 100%;
+    }
+  
+    #banner-button-container {
+      margin: auto;
+      padding-top: 15px;
+    }
+  
+    .about-us-left {
+      width: 100%;
+    }
+  
+    .about-us-right {
+      display: none;
+    }
+  
+    #masterclass {
+      height: 500px;
+      top: 1600px;
+    }
+  
+    #masterclass-head {
+      margin: auto;
+      width: 70%;
+    }
+  
+    #masterclass-head h1 {
+      font-size: 34px
+    }
+  
+    .security-actions {
+      top: 750px;
+    }
+  
+    #security-row {
+      display: block;
+      margin-top: 750px;
+    }
+  
+    #security-actions-heading-img {
+      width: 90%;
+      margin: auto;
+      margin-left: 30px;
+      margin-top: 30px;
+      position: relative;
+      bottom: 400px;
+  
+    }
+  
+    #security-actions-heading {
+      position: relative;
+      top: 600px;
+    }
+  
+    #included-features-heading {
+      width: 60%;
+    }
+  
+    #includedFeatures-main {
+      top: 750px;
+    }
+  
+    .included-features-row {
+      display: block;
+    }
+  
+    #included-features-card-item {
+      width: 95%;
+      margin: auto;
+      margin-bottom: 50px;
+    }
+  
+    #card-p {
+      font-size: 18px;
+    }
+  
+    #productivity-main {
+      top: 6850px
+    }
+  
+    #productivity-captions {
+      top: 55px;
+    }
+  
+    #ourClients-main {
+      top: 750px;
+    }
+  
+    .container-blog {
+      display: grid;
+    }
+  
+    #blog-div {
+      top: 1380px;
+    }
+  
+    .card {
+      width: 95%;
+      margin-bottom: 20px;
+    }
+  
+    .container-blog {
+      margin: auto;
+      padding-left: 15px;
+    }
+  
+    #testimonials-div {
+      top: 1450px
+    }
+  
+    #main-testimonial-cards {
+      display: block;
+      margin-left: 0;
+    }
+  
+    #testimonial-text {
+      margin: auto;
+      font-size: 18px;
+    }
+  
+    #testimonial-card-main {
+      width: 90%;
+      margin-bottom: 30px;
+      margin-left: 28px;
+    }
+  
+    #testimonial-card-main-four {
+      width: 90%;
+      margin-bottom: 30px;
+      margin-left: 28px;
+    }
+  
+    #testimonial-card-main-two {
+      width: 90%;
+      margin-bottom: 30px;
+      margin-left: 28px;
+    }
+  
+    #testimonial-card-main-three {
+      width: 90%;
+      margin-bottom: 30px;
+      margin-left: 28px;
+    }
+  
+    .main-footer {
+      top: 11400px;
+    }
+  
+    #footer-inner {
+      display: block;
+    }
+  
+    #footer-lower {
+      display: block;
+    }
 }
-#basic-navbar-nav{
-  background-color: #140944;
-}
-  #search-outer {
-    width: 150px;
-    /* margin-right: 100px; */
-  }
-  #search-bar{
-    width: 180px;
-  }
-  #nav-right{
-    position: absolute;
-    left: 185px;
-    width: 55%;
-  }
 
-  .navbar-light .navbar-toggler-icon {
-    background-image: url(../src/assets/toggler.png);
-  }
-
-  .banner-right {
-    width: 100%;
-  }
-  #main-heading{
-    margin-left: 15px;
-  }
-  #main-heading-p{
-    margin: auto;
-    width: 60%;
-  }
-  #main-heading-h2{
-    width: 90%;
-    margin: auto;
-
-  }
-  #banner-captions {
-    text-align: center;
-    margin: auto;
-    margin-top: 200px;
-    width: 100%;
-  }
-
-  #banner-button-container {
-    margin: auto;
-    padding-top: 15px;
-  }
-  #about-us-main{
-    top: 750px;
-  }
-  .about-us-left {
-    width: 100%;
-  }
-
-  .about-us-right {
-    display: none;
-  }
-
-  #masterclass {
-    top: 1880px;
-    height: 580px;
-  }
-
-  #masterclass-head {
-    margin: auto;
-    width: 70%;
-  }
-
-  #masterclass-head h1 {
-    font-size: 34px
-  }
-
-  .security-actions {
-    top: 750px;
-  }
-
-  #security-row {
-    display: block;
-    margin-top: 750px;
-    /* border: 1px solid black; */
-  }
-
-  #security-actions-heading-img {
-    width: 90%;
-    margin: auto;
-    margin-left: 20px;
-    margin-top: 30px;
-    position: relative;
-    bottom: 400px;
-
-    /* disply: none; */
-  }
-  #actions-img{
-    height: 400px;
-  }
-
-  #security-actions-heading {
-    position: relative;
-    top: 400px;
-  }
-
-  #included-features-heading {
-    width: 60%;
-  }
-
-  #includedFeatures-main {
-    top: 650px;
-  }
-
-  .included-features-row {
-    display: block;
-  }
-
+@media screen and (min-width: 900px) and (max-width: 1050px) {
   #included-features-card-item {
-    width: 95%;
-    margin: auto;
-    margin-bottom: 50px;
+    height: 340px;
   }
-
-  #card-p {
-    font-size: 18px;
+  #productivity-main{
+    top: 4050px;
   }
-
-  #productivity-main {
-    top: 7000px
-  }
-  #productivity{
-    height: 550px;
-  }
-  #productivity-captions {
-    top: 55px;
-  }
-
-  #ourClients-main {
-    top: 650px;
-  }
-
-  .container-blog {
-    display: grid;
-  }
-
-  #blog-div {
-    top: 1380px;
-  }
-
-  .card {
-    width: 95%;
-    margin-bottom: 20px;
-  }
-
-  .container-blog {
-    margin: auto;
-    padding-left: 15px;
-  }
-
-  #testimonials-div {
-    top: 1450px
-  }
-
-  #main-testimonial-cards {
-    display: block;
-    margin-right: 10px;
-  }
-
-  #testimonial-text {
-    margin: auto;
-    font-size: 18px;
-  }
-
-  #testimonial-card-main {
-    width: 90%;
-    margin-bottom: 30px;
-    margin-left: 28px;
-  }
-
-  #testimonial-card-main-four {
-    width: 90%;
-    margin-bottom: 30px;
-    margin-left: 28px;
-  }
-
-  #testimonial-card-main-two {
-    width: 90%;
-    margin-bottom: 30px;
-    margin-left: 28px;
-  }
-
-  #testimonial-card-main-three {
-    width: 90%;
-    margin-bottom: 30px;
-    margin-left: 28px;
-  }
-
   .main-footer {
-    top: 12000px;
+  top: 6500px;
   }
-  #footer-inner{
-    display: block;
-  }
-  #footer-lower{
-    display: block;
-  }
-
 }

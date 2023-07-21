@@ -95,7 +95,7 @@ const IncludedFeatures = () => {
                                 <div id = "card-image">
                                     <i id='data-security' class="fa fa-graduation-cap fa-4x" aria-hidden="true"></i>
                                 </div>
-                                <h4 className='text-center'>SECURITY <br />TRAINING</h4>
+                                <h4 className='text-center'>IT & SECURITY <br />TRAINING</h4>
                                 <h6 id='card-p' className='text-center'>We teach employees about potential security risks and threats and provide them with the knowledge required to mitigate those threats</h6>
                             </div>
                         </div>

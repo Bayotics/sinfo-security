@@ -111,11 +111,11 @@ function App() {
                 <Row id = "nav-row">
                   <Col>
                     <Nav className="me-auto  w-100  justify-content-start">
-                      <Link to = "/" className='nav-link menu-item-ordinary text-white text-bold'>HOME</Link>
-                      <Link 
-                      to = "/search?category=all&query=all&price=all&rating=all&order=newest&page=1" 
-                      className='nav-link text-white menu-item-ordinary text-bold'>PRODUCTS</Link>
-                      <Link to = "#" className='nav-link text-white text-bold'><div className="menu-wrap">
+                      <Link to = "/" className='nav-link menu-item-ordinary text-white'>HOME</Link>
+                      <Link to = "/"
+                      // to = "/search?category=all&query=all&price=all&rating=all&order=newest&page=1" 
+                      className='nav-link text-white menu-item-ordinary'>SERVICES</Link>
+                      <Link to = "#" className='nav-link text-white'><div className="menu-wrap">
                           <ul className=" menu">
                               <li className="menu-item ">
                                   <a href="home-nav">COMPANY</a>
@@ -133,7 +133,7 @@ function App() {
                               </li>
                           </ul>
                         </div></Link>
-                      <Link to = "#" className='nav-link text-white text-bold' id = "contact-nav">
+                      <Link to = "#" className='nav-link text-white' id = "contact-nav">
                         <div className="menu-wrap">
                           <ul className=" menu">
                               <li className="menu-item ">
